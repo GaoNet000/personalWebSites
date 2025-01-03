@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./img/背景图.jpg');
+    background-size: 100%;
+    font-family: '宋体';
+    line-height: 30px;
+}
+
+.box {
+    width: 800px;
+    margin: 0 auto;
+    /*背景颜色，透明度加上三原色*/
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 0;
+}
+
+.useImgBox {
+    width: 50px;
+    height: 50px;
+    /*设置圆的弧度是50，设置超出部分隐藏*/
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.useImgBox img {
+    width: 50px;
+}
+
+.titleBox {
+    width: 500px;
+    border-left: 5px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-left: 8px;
+    margin: 10px;
+    color: brown;
+}
+
+.albumBox {
+    overflow: hidden;
+}
